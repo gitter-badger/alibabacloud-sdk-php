@@ -20,9 +20,9 @@ CloudWatch Events delivers a near real-time stream of system events that describ
 
 The examples below show how to:
 
-* Create a rule using `PutRule <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-events-2015-10-07.html#putrule>`_.
-* Add targets to a rule using `PutTargets <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-events-2015-10-07.html#puttargets>`_.
-* Send custom events to CloudWatch Events using `PutEvents <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-events-2015-10-07.html#putevents>`_.
+* Create a rule using `PutRule <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-events-2015-10-07.html#putrule>`_.
+* Add targets to a rule using `PutTargets <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-events-2015-10-07.html#puttargets>`_.
+* Send custom events to CloudWatch Events using `PutEvents <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-events-2015-10-07.html#putevents>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

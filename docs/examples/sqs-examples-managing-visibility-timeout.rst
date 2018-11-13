@@ -20,7 +20,7 @@ A visibility timeout is a period of time during which Alibaba SQS prevents other
 
 The example below shows how to:
 
-* Change the visibility timeout of specified messages in a queue to new values, using `ChangeMessageVisibilityBatch <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#changemessagevisibilitybatch>`_.
+* Change the visibility timeout of specified messages in a queue to new values, using `ChangeMessageVisibilityBatch <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#changemessagevisibilitybatch>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

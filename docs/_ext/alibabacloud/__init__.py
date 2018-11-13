@@ -1,7 +1,7 @@
 from docutils import nodes
 
 
-API_DOCS = "http://docs.aliyun.com/aliyun-sdk-php/v3/api/AlibabaCloud/%s/%sClient.html"
+API_DOCS = "http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/AlibabaCloud/%s/%sClient.html"
 
 
 def setup(app):

@@ -20,9 +20,9 @@ If you want the URL for your sign-in page to contain your company name or other 
 
 The examples below show how to:
 
-* Create an alias using `CreateAccountAlias <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#createaccountalias>`_.
-* List the alias associated with the Alibaba Cloud account using `ListAccountAliases <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#listaccountaliases>`_.
-* Delete an alias using `DeleteAccountAlias <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#deleteaccountalias>`_.
+* Create an alias using `CreateAccountAlias <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#createaccountalias>`_.
+* List the alias associated with the Alibaba Cloud account using `ListAccountAliases <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#listaccountaliases>`_.
+* Delete an alias using `DeleteAccountAlias <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#deleteaccountalias>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

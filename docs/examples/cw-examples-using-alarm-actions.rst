@@ -20,8 +20,8 @@ Using alarm actions, you can create alarms that automatically stop, terminate, r
 
 The examples below show how to:
 
-* Enable actions for specified alarms using `EnableAlarmActions <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#enablealarmactions>`_.
-* Disable actions for specified alarms using `DisableAlarmActions <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#disablealarmactions>`_.
+* Enable actions for specified alarms using `EnableAlarmActions <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#enablealarmactions>`_.
+* Disable actions for specified alarms using `DisableAlarmActions <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#disablealarmactions>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

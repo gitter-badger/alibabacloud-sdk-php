@@ -20,11 +20,11 @@ An IAM user is an entity that you create in Alibaba Cloud to represent the perso
 
 The examples below show how to:
 
-* Create a new IAM user using `CreateUser <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#createuser>`_.
-* List IAM users using `ListUsers <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#listusers>`_.
-* Update an IAM user using `UpdateUser <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#updateuser>`_.
-* Retrieve info about an IAM user using `GetUser <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#getuser>`_.
-* Delete an IAM user using `DeleteUser <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#deleteuser>`_.
+* Create a new IAM user using `CreateUser <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#createuser>`_.
+* List IAM users using `ListUsers <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#listusers>`_.
+* Update an IAM user using `UpdateUser <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#updateuser>`_.
+* Retrieve info about an IAM user using `GetUser <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#getuser>`_.
+* Delete an IAM user using `DeleteUser <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#deleteuser>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

@@ -20,9 +20,9 @@ Metrics are data about the performance of your systems. You can enable detailed 
 
 The examples below show how to:
 
-* List metrics using `ListMetrics <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#listmetrics>`_.
-* Retrieve alarms for a metric using `DescribeAlarmsForMetric <http://docs.aliyun.com/aliyun-sdk-php/v3/api//api-monitoring-2010-08-01.html#describealarmsformetric>`_.
-* Get statistics for a specified metric using `GetMetricStatistics <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#getmetricstatistics>`_.
+* List metrics using `ListMetrics <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#listmetrics>`_.
+* Retrieve alarms for a metric using `DescribeAlarmsForMetric <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api//api-monitoring-2010-08-01.html#describealarmsformetric>`_.
+* Get statistics for a specified metric using `GetMetricStatistics <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#getmetricstatistics>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

@@ -22,8 +22,8 @@ For more information about using CORS configuration with an Alibaba S3 bucket, s
 
 The examples below show how to:
 
-* Get the CORS configuration for a bucket using `GetBucketCors <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#getbucketcors>`_.
-* Set the CORS configuration for a bucket using `PutBucketCors <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#putbucketcors>`_.
+* Get the CORS configuration for a bucket using `GetBucketCors <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#getbucketcors>`_.
+* Set the CORS configuration for a bucket using `PutBucketCors <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#putbucketcors>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

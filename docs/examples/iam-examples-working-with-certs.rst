@@ -20,10 +20,10 @@ To enable HTTPS connections to your website or application on Alibaba Cloud, you
 
 The examples below show how to:
 
-* List the certificates stored in IAM using `ListServerCertificates <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#listservercertificates>`_.
-* Retrieve information about a certificate using `GetServerCertificate <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#getservercertificate>`_.
-* Update a certificate using `UpdateServerCertificate <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#updateservercertificate>`_.
-* Delete a certificate using `DeleteServerCertificate <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#deleteservercertificate>`_.
+* List the certificates stored in IAM using `ListServerCertificates <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#listservercertificates>`_.
+* Retrieve information about a certificate using `GetServerCertificate <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#getservercertificate>`_.
+* Update a certificate using `UpdateServerCertificate <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#updateservercertificate>`_.
+* Delete a certificate using `DeleteServerCertificate <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#deleteservercertificate>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

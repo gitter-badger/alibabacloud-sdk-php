@@ -20,8 +20,8 @@ Metrics are data about the performance of your systems. An alarm watches a singl
 
 The examples below show how to:
 
-* Publish metric data using `PutMetricData <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#putmetricdata>`_.
-* Create an alarm using `PutMetricAlarm <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#putmetricalarm>`_.
+* Publish metric data using `PutMetricData <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#putmetricdata>`_.
+* Create an alarm using `PutMetricAlarm <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#putmetricalarm>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

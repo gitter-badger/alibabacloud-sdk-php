@@ -17,10 +17,10 @@ The **Alibaba Cloud SDK for PHP** enables PHP developers to use
 robust applications and software using services like Alibaba S3, Alibaba
 DynamoDB, Alibaba Glacier, etc. You can get started in minutes by installing the
 SDK through Composer — by requiring the ``alibabacloud/sdk-php`` package — or by
-downloading the standalone `aliyun.zip <http://docs.aliyun.com/aliyun-sdk-php/v3/download/aliyun.zip>`_
-or `aliyun.phar <http://docs.aliyun.com/aliyun-sdk-php/v3/download/aliyun.phar>`_ files.
+downloading the standalone `aliyun.zip <http://docs.aliyun.com/alibabacloud-sdk-php/v3/download/aliyun.zip>`_
+or `aliyun.phar <http://docs.aliyun.com/alibabacloud-sdk-php/v3/download/aliyun.phar>`_ files.
 
-External links: `API Docs <http://docs.aliyun.com/aliyun-sdk-php/v3/api/>`_
+External links: `API Docs <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/>`_
 | `GitHub <https://github.com/alibabacloud/sdk-php>`_
 | `Twitter <https://twitter.com/alibabaforphp>`_
 | `Gitter <https://gitter.im/alibabacloud/sdk-php>`_
@@ -90,4 +90,4 @@ Reference
 API Documentation
 -----------------
 
-API documentation for the SDK can be found at http://docs.aliyun.com/aliyun-sdk-php/v3/api/.
+API documentation for the SDK can be found at http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/.

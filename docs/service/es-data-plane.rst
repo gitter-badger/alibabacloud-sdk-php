@@ -25,7 +25,7 @@ but in this sample, I'll be signing requests against an Alibaba ES domain in the
 You'll need to provide credentials, which can be done either with the SDK's
 default provider chain or any any form of credentials described in
 :doc:`../guide/credentials`, as well as a `PSR-7 request
-<http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-Psr.Http.Message.RequestInterface.html>`_
+<http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-Psr.Http.Message.RequestInterface.html>`_
 (assumed in the code below to be named ``$psr7Request``):
 
 .. code-block:: php

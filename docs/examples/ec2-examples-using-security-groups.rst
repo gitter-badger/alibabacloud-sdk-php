@@ -20,10 +20,10 @@ An Alibaba EC2 security group acts as a virtual firewall that controls the traff
 
 The examples below show how to:
 
-* Describe one or more of your security groups using `DescribeSecurityGroups <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#describesecuritygroups>`_.
-* Add an ingress rule to a security group using `AuthorizeSecurityGroupIngress <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#authorizesecuritygroupingress>`_.
-* Create a security group using `CreateSecurityGroup <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#createsecuritygroup>`_.
-* Delete a security group using `DeleteSecurityGroup <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#deletesecuritygroup>`_.
+* Describe one or more of your security groups using `DescribeSecurityGroups <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#describesecuritygroups>`_.
+* Add an ingress rule to a security group using `AuthorizeSecurityGroupIngress <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#authorizesecuritygroupingress>`_.
+* Create a security group using `CreateSecurityGroup <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#createsecuritygroup>`_.
+* Delete a security group using `DeleteSecurityGroup <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#deletesecuritygroup>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

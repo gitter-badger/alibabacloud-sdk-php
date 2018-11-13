@@ -80,7 +80,7 @@ Region
 SDK
     The term "SDK" can refer to the Alibaba Cloud SDK for PHP library as a whole, but also
     refers to the ``AlibabaCloud\Sdk`` class `(docs)
-    <http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-AlibabaCloud.Sdk.html>`_, which
+    <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-AlibabaCloud.Sdk.html>`_, which
     acts as a factory for the client objects for each **service**. The ``Sdk``
     class also let's you provide a set of :doc:`global configuration values
     </guide/configuration>` that are applied to all client objects that it

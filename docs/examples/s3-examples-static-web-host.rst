@@ -20,9 +20,9 @@ You can host a static website on Alibaba S3. To learn more, see `Hosting a Stati
 
 The example below shows how to:
 
-* Get the website configuration for a bucket using `GetBucketWebsite <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#getbucketwebsite>`_.
-* Set the website configuration for a bucket using `PutBucketWebsite <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#putbucketwebsite>`_.
-* Remove the website configuration from a bucket using `DeleteBucketWebsite <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#deletebucketwebsite>`_.
+* Get the website configuration for a bucket using `GetBucketWebsite <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#getbucketwebsite>`_.
+* Set the website configuration for a bucket using `PutBucketWebsite <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#putbucketwebsite>`_.
+* Remove the website configuration from a bucket using `DeleteBucketWebsite <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#deletebucketwebsite>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

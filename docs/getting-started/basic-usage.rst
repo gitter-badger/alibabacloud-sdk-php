@@ -68,7 +68,7 @@ All of the general client configuration options are described in detail in
 the :doc:`configuration guide </guide/configuration>`. The array of options
 provided to a client may vary based on which client you are creating. These
 custom client configuration options are described in the
-`API documentation <http://docs.aliyun.com/aliyun-sdk-php/latest/>`_ of each
+`API documentation <http://docs.aliyun.com/alibabacloud-sdk-php/latest/>`_ of each
 client.
 
 .. _sdk-class:
@@ -164,7 +164,7 @@ Operation methods like ``putObject()`` all accept a single argument -- an
 associative array representing the parameters of the operation. The structure
 of this array (and the structure of the result object) is defined for each
 operation in the SDK's API Documentation (e.g., see the API docs for
-`putObject operation <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#putobject>`__).
+`putObject operation <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#putobject>`__).
 
 HTTP Handler Options
 ~~~~~~~~~~~~~~~~~~~~

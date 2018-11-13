@@ -20,9 +20,9 @@ Long polling reduces the number of empty responses by allowing Alibaba SQS to wa
 
 The examples below show how to:
 
-* Set attributes on an SQS queue to enable long polling, using `SetQueueAttributes <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#setqueueattributes>`_.
-* Retrieve one or more messages with long polling using `ReceiveMessage <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#receivemessage>`_.
-* Create a long polling queue using `CreateQueue <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#createqueue>`_.
+* Set attributes on an SQS queue to enable long polling, using `SetQueueAttributes <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#setqueueattributes>`_.
+* Retrieve one or more messages with long polling using `ReceiveMessage <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#receivemessage>`_.
+* Create a long polling queue using `CreateQueue <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#createqueue>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

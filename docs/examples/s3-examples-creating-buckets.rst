@@ -18,9 +18,9 @@ Creating and Using Alibaba S3 Buckets
 
 The examples below show how to:
 
-* Return a list of buckets owned by the authenticated sender of the request using `ListBuckets <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#listbuckets>`_.
-* Create a new bucket using `CreateBucket <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#createbucket>`_.
-* Add an object to a bucket using `PutObject <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#putobject>`_.
+* Return a list of buckets owned by the authenticated sender of the request using `ListBuckets <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#listbuckets>`_.
+* Create a new bucket using `CreateBucket <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#createbucket>`_.
+* Add an object to a bucket using `PutObject <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#putobject>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

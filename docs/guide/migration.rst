@@ -392,7 +392,7 @@ even been removed.
       have changed slightly.
     * The ``AlibabaCloud\DynamoDb\Model\BatchRequest`` namespace has been replaced by
       ``AlibabaCloud\DynamoDb\WriteRequestBatch``. See the docs for
-      `DynamoDB WriteRequestBatch <http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-AlibabaCloud.DynamoDb.WriteRequestBatch.html>`_.
+      `DynamoDB WriteRequestBatch <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-AlibabaCloud.DynamoDb.WriteRequestBatch.html>`_.
 
 * Removed:
     * DynamoDB ``Item``, ``Attribute``, and ``ItemIterator`` classes - These

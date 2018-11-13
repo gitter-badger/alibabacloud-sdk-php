@@ -478,4 +478,4 @@ In addition to handling specific ``@http`` options, a handler MUST add a
 replaced with ``AlibabaCloud\Sdk::VERSION`` and "HandlerSpecificData/version ..."
 should be replaced with your handler specific User-Agent string.
 
-``User-Agent: aliyun-sdk-php/3.X HandlerSpecificData/version ...``
+``User-Agent: alibabacloud-sdk-php/3.X HandlerSpecificData/version ...``

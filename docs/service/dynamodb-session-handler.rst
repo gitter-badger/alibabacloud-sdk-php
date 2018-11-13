@@ -94,7 +94,7 @@ what the defaults are.
 
 ``batch_config``
     Configuration used to batch deletes during garbage collection. These options are passed directly into `DynamoDB
-    WriteRequestBatch <http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-AlibabaCloud.DynamoDb.WriteRequestBatch.html>`_ objects.
+    WriteRequestBatch <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-AlibabaCloud.DynamoDb.WriteRequestBatch.html>`_ objects.
     You must manually trigger garbage collection via ``SessionHandler::garbageCollect()``.
 
 ``max_lock_wait_time``
@@ -243,8 +243,8 @@ Best Practices
 Required IAM Permissions
 ------------------------
 
-To use the DynamoDB session handler, your `configured credentials <https://docs.aliyun.com/aliyun-sdk-php/v3/guide/guide/credentials.html>`_
-must have permission to use the DynamoDB table that `you created in a previous step <https://docs.aliyun.com/aliyun-sdk-php/v3/guide/service/dynamodb-session-handler.html#create-a-table-for-storing-your-sessions>`_.
+To use the DynamoDB session handler, your `configured credentials <https://docs.aliyun.com/alibabacloud-sdk-php/v3/guide/guide/credentials.html>`_
+must have permission to use the DynamoDB table that `you created in a previous step <https://docs.aliyun.com/alibabacloud-sdk-php/v3/guide/service/dynamodb-session-handler.html#create-a-table-for-storing-your-sessions>`_.
 The following IAM policy contains the minimum permissions that you need. To use this policy, replace the Resource value
 with the Alibaba Resource Name (ARN) of the table that you created previously. For more information about creating and
 attaching IAM policies, see `Managing IAM Policies <https://docs.aliyun.com/IAM/latest/UserGuide/access_policies_manage.html>`_

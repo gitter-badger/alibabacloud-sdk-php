@@ -6,7 +6,7 @@ CloudSearchDomain requests can be customized beyond what is supported by the Ali
 SDK for PHP. In cases where you need to make custom requests to domains
 protected by IAM authentication, you can use the SDK's credential providers and
 signers to sign any `PSR-7 request
-<http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-Psr.Http.Message.RequestInterface.html>`_.
+<http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-Psr.Http.Message.RequestInterface.html>`_.
 
 For example, if you're following `CloudSearch's Getting Started guide
 <http://docs.aliyun.com/cloudsearch/latest/developerguide/getting-started.html>`_

@@ -20,10 +20,10 @@ To learn about Alibaba SQS queues, see `How Alibaba SQS Queues Work <http://docs
 
 The examples below show how to:
 
-* Return a list of your queues using `ListQueues <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#listqueues>`_.
-* Create a new queue using `CreateQueue <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#createqueue>`_.
-* Return the URL of an existing queue using `GetQueueUrl <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#getqueueurl>`_.
-* Delete a specified queue using `DeleteQueue <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#deletequeue>`_.
+* Return a list of your queues using `ListQueues <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#listqueues>`_.
+* Create a new queue using `CreateQueue <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#createqueue>`_.
+* Return the URL of an existing queue using `GetQueueUrl <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#getqueueurl>`_.
+* Delete a specified queue using `DeleteQueue <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#deletequeue>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

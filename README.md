@@ -19,10 +19,7 @@ Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-
 [![Gitter](https://badges.gitter.im/alibabacloud/sdk-php.svg)](https://gitter.im/alibabacloud/sdk-php?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![codecov](https://codecov.io/gh/alibabacloud/sdk-php/branch/master/graph/badge.svg)](https://codecov.io/gh/alibabacloud/sdk-php)
 
-The **Alibaba Cloud SDK for PHP** makes it easy for developers to access [Alibaba Web
-Services][aliyun] in their PHP code, and build robust applications and software
-using services like Alibaba S3, Alibaba DynamoDB, Alibaba Glacier, etc. You can
-get started in minutes by [installing the SDK through Composer][docs-installation]
+The **Alibaba Cloud SDK for PHP** makes it easy for developers to access [Alibaba Cloud] in their PHP code. You can get started in minutes by [installing the SDK through Composer][docs-installation]
 or by downloading a single zip or phar file from our [latest release][latest-release].
 
 ## Resources
@@ -47,9 +44,9 @@ Please use these community resources for getting help. We use the GitHub issues 
 
 ## Opening Issues
 
-If you encounter a bug with `aliyun-sdk-php` we would like to hear about it. Search the existing issues and try to make sure your problem doesn’t already exist before opening a new issue. It’s helpful if you include the version of `aliyun-sdk-php`, PHP version and OS you’re using. Please include a stack trace and reduced repro case when appropriate, too.
+If you encounter a bug with `alibabacloud-sdk-php` we would like to hear about it. Search the existing issues and try to make sure your problem doesn’t already exist before opening a new issue. It’s helpful if you include the version of `alibabacloud-sdk-php`, PHP version and OS you’re using. Please include a stack trace and reduced repro case when appropriate, too.
 
-The GitHub issues are intended for bug reports and feature requests. For help and questions with using `aliyun-sdk-php` please make use of the resources listed in the Getting Help section. There are limited resources available for handling issues and by keeping the list of open issues lean we can respond in a timely manner.
+The GitHub issues are intended for bug reports and feature requests. For help and questions with using `alibabacloud-sdk-php` please make use of the resources listed in the Getting Help section. There are limited resources available for handling issues and by keeping the list of open issues lean we can respond in a timely manner.
 
 ## Features
 

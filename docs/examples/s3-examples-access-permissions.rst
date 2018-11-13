@@ -20,8 +20,8 @@ Access control lists (ACLs) are one of the resource-based access policy options 
 
 The example below shows how to:
 
-* Get the access control policy for a bucket using `GetBucketAcl <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#getbucketacl>`_.
-* Set the permissions on a bucket using access control lists, using `PutBucketAcl <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#putbucketacl>`_.
+* Get the access control policy for a bucket using `GetBucketAcl <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#getbucketacl>`_.
+* Set the permissions on a bucket using access control lists, using `PutBucketAcl <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#putbucketacl>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

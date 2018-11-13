@@ -20,9 +20,9 @@ You can use a bucket policy to grant permission to your Alibaba S3 resources. To
 
 The example below shows how to:
 
-* Return the policy for a specified bucket using `GetBucketPolicy <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#getbucketpolicy>`_.
-* Replace a policy on a bucket using `PutBucketPolicy <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#putbucketpolicy>`_.
-* Delete a policy from a bucket using `DeleteBucketPolicy <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-s3-2006-03-01.html#deletebucketpolicy>`_.
+* Return the policy for a specified bucket using `GetBucketPolicy <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#getbucketpolicy>`_.
+* Replace a policy on a bucket using `PutBucketPolicy <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#putbucketpolicy>`_.
+* Delete a policy from a bucket using `DeleteBucketPolicy <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-s3-2006-03-01.html#deletebucketpolicy>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

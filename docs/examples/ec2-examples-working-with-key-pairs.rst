@@ -20,9 +20,9 @@ Alibaba EC2 uses public–key cryptography to encrypt and decrypt login informat
 
 The examples below show how to:
 
-* Create a 2048-bit RSA key pair using `CreateKeyPair <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#createkeypair>`_.
-* Delete a specified key pair using `DeleteKeyPair <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#deletekeypair>`_.
-* Describe one or more of your key pairs using `DescribeKeyPairs <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#describekeypairs>`_.
+* Create a 2048-bit RSA key pair using `CreateKeyPair <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#createkeypair>`_.
+* Delete a specified key pair using `DeleteKeyPair <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#deletekeypair>`_.
+* Describe one or more of your key pairs using `DescribeKeyPairs <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#describekeypairs>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

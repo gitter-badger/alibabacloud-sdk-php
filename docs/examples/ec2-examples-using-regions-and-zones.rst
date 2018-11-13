@@ -20,8 +20,8 @@ Alibaba EC2 is hosted in multiple locations worldwide. These locations are compo
 
 The examples below show how to:
 
-* Describe the Availability Zones that are available to you using `DescribeAvailabilityZones <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#describeavailabilityzones>`_.
-* Describe regions that are currently available to you using `DescribeRegions <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#describeregions>`_.
+* Describe the Availability Zones that are available to you using `DescribeAvailabilityZones <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#describeavailabilityzones>`_.
+* Describe regions that are currently available to you using `DescribeRegions <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#describeregions>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

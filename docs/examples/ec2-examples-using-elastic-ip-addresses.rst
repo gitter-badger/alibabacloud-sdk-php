@@ -20,10 +20,10 @@ An Elastic IP address is a static IP address designed for dynamic cloud computin
 
 The examples below show how to:
 
-* Describes one or more of your instances using `DescribeInstances <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#describeinstances>`_.
-* Acquires an Elastic IP address using `AllocateAddress <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#allocateaddress>`_.
-* Associate an Elastic IP address with an instance using `AssociateAddress <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#associateaddress>`_.
-* Release an Elastic IP address using `ReleaseAddress <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#releaseaddress>`_.
+* Describes one or more of your instances using `DescribeInstances <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#describeinstances>`_.
+* Acquires an Elastic IP address using `AllocateAddress <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#allocateaddress>`_.
+* Associate an Elastic IP address with an instance using `AssociateAddress <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#associateaddress>`_.
+* Release an Elastic IP address using `ReleaseAddress <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#releaseaddress>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

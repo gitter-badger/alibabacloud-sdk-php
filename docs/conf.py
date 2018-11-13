@@ -44,5 +44,5 @@ html_theme = 'guzzle_sphinx_theme'
 html_theme_options = {
     # hack to add tracking
     "google_analytics_account": os.getenv('TRACKING', False),
-    "base_url": "http://docs.aliyun.com/aliyun-sdk-php/guide/latest/"
+    "base_url": "http://docs.aliyun.com/alibabacloud-sdk-php/guide/latest/"
 }

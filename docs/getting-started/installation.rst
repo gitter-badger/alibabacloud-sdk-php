@@ -39,7 +39,7 @@ other best-practices for defining dependencies at
 Installing via Phar
 -------------------
 
-You can `download the packaged phar <http://docs.aliyun.com/aliyun-sdk-php/v3/download/aliyun.phar>`_
+You can `download the packaged phar <http://docs.aliyun.com/alibabacloud-sdk-php/v3/download/aliyun.phar>`_
 and simply include it in your scripts to get started:
 
 .. code-block:: php
@@ -70,7 +70,7 @@ Each release of the Alibaba Cloud SDK for PHP ships with a zip file containing a
 classes and dependencies you need to run the SDK. Additionally, the zip file
 includes a class autoloader for the Alibaba Cloud SDK for PHP and all of its dependencies.
 
-To get started, you must `download the zip file <http://docs.aliyun.com/aliyun-sdk-php/v3/download/aliyun.zip>`_,
+To get started, you must `download the zip file <http://docs.aliyun.com/alibabacloud-sdk-php/v3/download/aliyun.zip>`_,
 unzip it into your project to a location of your choosing, and include the
 autoloader::
 

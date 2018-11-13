@@ -20,10 +20,10 @@ You grant permissions to a user by creating a policy, which is a document that l
 
 The examples below show how to:
 
-* Create a managed policy using `CreatePolicy <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#createpolicy>`_.
-* Attach a policy to a role using `AttachRolePolicy <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#attachrolepolicy>`_.
-* Attach a policy to a user using `AttachUserPolicy <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#attachuserpolicy>`_.
-* Remove a user policy using `DetachUserPolicy <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-iam-2010-05-08.html#detachuserpolicy>`_.
+* Create a managed policy using `CreatePolicy <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#createpolicy>`_.
+* Attach a policy to a role using `AttachRolePolicy <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#attachrolepolicy>`_.
+* Attach a policy to a user using `AttachUserPolicy <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#attachuserpolicy>`_.
+* Remove a user policy using `DetachUserPolicy <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-iam-2010-05-08.html#detachuserpolicy>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

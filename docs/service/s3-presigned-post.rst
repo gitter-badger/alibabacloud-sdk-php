@@ -4,7 +4,7 @@ Alibaba S3 Presigned POSTs
 
 Much like pre-signed URLs, pre-signed POSTs allow you to give write access to a
 user without giving them Alibaba Cloud credentials. Presigned POST forms can be created
-with the help of an instance of `AlibabaCloud\S3\PostObjectV4 <http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-AlibabaCloud.S3.PostObjectV4.html>`_.
+with the help of an instance of `AlibabaCloud\S3\PostObjectV4 <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-AlibabaCloud.S3.PostObjectV4.html>`_.
 
 To create an instance of ``PostObjectV4``, you must provide an instance of
 ``AlibabaCloud\S3\S3Client``, a bucket, an associative array of form input fields,

@@ -10,7 +10,7 @@ don’t rely on an external service to handle encryption for you.
 The Alibaba Cloud SDK for PHP implements `envelope encryption <http://docs.aliyun.com/kms/latest/developerguide/workflow.html>`_
 and utilizes `OpenSSL <https://www.openssl.org/>`_ for its encrypting and
 decrypting. The implementation is interoperable with `other SDKs that match its feature support <http://docs.aliyun.com/general/latest/gr/aliyun_sdk_cryptography.html>`_.
-It's also compatible with `the SDK’s promise based asynchronous workflow <https://docs.aliyun.com/aliyun-sdk-php/v3/guide/guide/promises.html>`_.
+It's also compatible with `the SDK’s promise based asynchronous workflow <https://docs.aliyun.com/alibabacloud-sdk-php/v3/guide/guide/promises.html>`_.
 
 Setup
 -----

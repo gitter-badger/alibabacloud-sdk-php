@@ -8,7 +8,7 @@ What methods are available on a client?
 The Alibaba Cloud SDK for PHP utilizes service descriptions and dynamic
 `magic __call() methods <http://www.php.net/manual/en/language.oop5.overloading.php#object.call>`_
 to execute API operations. You can find a full list of methods available for a
-web service client in the `API documentation <http://docs.aliyun.com/aliyun-sdk-php/v3/api/index.html>`_
+web service client in the `API documentation <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/index.html>`_
 of the client.
 
 What do I do about a cURL SSL certificate error?
@@ -29,7 +29,7 @@ What API versions are available for a client?
 
 A ``version`` option is required when creating a client. A list of available
 API versions can be found on each client's API documentation page:
-http://docs.aliyun.com/aliyun-sdk-php/v3/api/index.html. If you are unable to
+http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/index.html. If you are unable to
 load a specific API version, then you may need to update your copy of the SDK.
 
 You may provide the string ``latest`` to the "version" configuration value to
@@ -104,9 +104,9 @@ How can I sign an arbitrary request?
 ------------------------------------
 
 You can sign an arbitrary `PSR-7 request
-<https://docs.aliyun.com/aliyun-sdk-php/v3/api/class-Psr.Http.Message.RequestInterface.html>`_
+<https://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-Psr.Http.Message.RequestInterface.html>`_
 using the SDK's `SignatureV4 class
-<https://docs.aliyun.com/aliyun-sdk-php/v3/api/class-AlibabaCloud.Signature.SignatureV4.html>`_.
+<https://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-AlibabaCloud.Signature.SignatureV4.html>`_.
 
 See :doc:`service/cloudsearch-custom-requests` for a full example of how to do
 so.
@@ -244,11 +244,11 @@ How to handle exception with Error code?
 ----------------------------------------
 
 Besides SDK customized Exception classes, each AlibabaCloud Service Client has its own exception class that
-inherits from `AlibabaCloud\Exception\AlibabaCloudException <http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-AlibabaCloud.Exception.AlibabaCloudException.html>`_.
+inherits from `AlibabaCloud\Exception\AlibabaCloudException <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-AlibabaCloud.Exception.AlibabaCloudException.html>`_.
 You can determine more specific error types to catch with the API specific errors listed under the
 ``Errors`` section of each method.
 
-Error Code information is available with `getAlibabaCloudErrorCode() <http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-AlibabaCloud.Exception.AlibabaCloudException.html#_getAlibabaCloudErrorCode>`_
+Error Code information is available with `getAlibabaCloudErrorCode() <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-AlibabaCloud.Exception.AlibabaCloudException.html#_getAlibabaCloudErrorCode>`_
 from ``AlibabaCloud\Exception\AlibabaCloudException``.
 
 .. code-block:: php

@@ -20,9 +20,9 @@ To learn about Alibaba SQS messages, see `Sending a Message to an Alibaba SQS Qu
 
 The examples below show how to:
 
-* Deliver a message to a specified queue using `SendMessage <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#sendmessage>`_.
-* Retrieve one or more messages (up to 10) from a specified queue using `ReceiveMessage <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#receivemessage>`_.
-* Delete a message from a queue using `DeleteMessage <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#deletemessage>`_.
+* Deliver a message to a specified queue using `SendMessage <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#sendmessage>`_.
+* Retrieve one or more messages (up to 10) from a specified queue using `ReceiveMessage <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#receivemessage>`_.
+* Delete a message from a queue using `DeleteMessage <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#deletemessage>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

@@ -239,7 +239,7 @@ workflows. The ``guzzlehttp/promise`` package contains various functions that
 can be used to combine promises.
 
 The API documentation for all of the promise collection functions can be found
-at http://docs.aliyun.com/aliyun-sdk-php/v3/api/namespace-GuzzleHttp.Promise.html.
+at http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/namespace-GuzzleHttp.Promise.html.
 
 each and each_limit
 ~~~~~~~~~~~~~~~~~~~

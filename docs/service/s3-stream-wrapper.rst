@@ -214,7 +214,7 @@ rename()        Rename an object by copying the object then deleting the
     While ``copy`` will generally work with the S3 stream wrapper, some errors
     may not be properly reported due to the internals of the ``copy`` function
     in PHP. It is recommended that you use an instance of `AlibabaCloud\S3\ObjectCopier
-    <http://docs.aliyun.com/aliyun-sdk-php/v3/api/class-AlibabaCloud.S3.ObjectCopier.html>`_
+    <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/class-AlibabaCloud.S3.ObjectCopier.html>`_
     instead.
 
 Working with buckets
@@ -231,7 +231,7 @@ Here's an example of creating a bucket:
 
 You can pass in stream context options to the ``mkdir()`` method to modify how
 the bucket is created using the parameters available to the `CreateBucket
-<http://docs.aliyun.com/aliyun-sdk-php/latest/class-AlibabaCloud.S3.S3Client.html#_createBucket>`_
+<http://docs.aliyun.com/alibabacloud-sdk-php/latest/class-AlibabaCloud.S3.S3Client.html#_createBucket>`_
 operation.
 
 .. code-block:: php
@@ -261,7 +261,7 @@ The `opendir() <http://www.php.net/manual/en/function.opendir.php>`_,
 `closedir() <http://php.net/manual/en/function.closedir.php>`_ PHP functions
 can be used with the Alibaba S3 stream wrapper to traverse the contents of a
 bucket. You can pass in parameters available to the
-`ListObjects <http://docs.aliyun.com/aliyun-sdk-php/latest/class-AlibabaCloud.S3.S3Client.html#_listObjects>`_
+`ListObjects <http://docs.aliyun.com/alibabacloud-sdk-php/latest/class-AlibabaCloud.S3.S3Client.html#_listObjects>`_
 operation as custom stream context options to the ``opendir()`` function to
 modify how objects are listed.
 

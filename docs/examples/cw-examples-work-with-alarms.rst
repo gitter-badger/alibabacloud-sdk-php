@@ -20,9 +20,9 @@ An Alibaba CloudWatch alarm watches a single metric over a time period you speci
 
 The examples below show how to:
 
-* Describe an alarm using `DescribeAlarms <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#describealarms>`_.
-* Create an alarm using `PutMetricAlarm <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#putmetricalarm>`_.
-* Delete an alarm using `DeleteAlarms <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-monitoring-2010-08-01.html#deletealarms>`_.
+* Describe an alarm using `DescribeAlarms <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#describealarms>`_.
+* Create an alarm using `PutMetricAlarm <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#putmetricalarm>`_.
+* Delete an alarm using `DeleteAlarms <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-monitoring-2010-08-01.html#deletealarms>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

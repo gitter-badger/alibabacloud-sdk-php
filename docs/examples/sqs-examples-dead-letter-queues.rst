@@ -22,7 +22,7 @@ To learn more, see `Using Alibaba SQS Dead Letter Queues <http://docs.aliyun.com
 
 The example below shows how to:
 
-* Enable a dead letter queue using `SetQueueAttributes <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sqs-2012-11-05.html#setqueueattributes>`_.
+* Enable a dead letter queue using `SetQueueAttributes <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sqs-2012-11-05.html#setqueueattributes>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

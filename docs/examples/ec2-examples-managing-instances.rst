@@ -18,12 +18,12 @@ Managing Alibaba EC2 Instances
 
 The examples below show how to:
 
-* Describe EC2 instances using `DescribeInstances <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#describeinstances>`_.
-* Enable detailed monitoring for a running instance using `MonitorInstances <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#monitorinstances>`_.
-* Disable monitoring for a running instance using `UnmonitorInstances <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#unmonitorinstances>`_.
-* Start an Alibaba EBS-backed AMI that you've previously stopped, using `StartInstances <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#startinstances>`_.
-* Stop an Alibaba EBS-backed instance using `StopInstances <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#stopinstances>`_.
-* Request a reboot of one or more instances using `RebootInstances <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ec2-2016-11-15.html#rebootinstances>`_.
+* Describe EC2 instances using `DescribeInstances <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#describeinstances>`_.
+* Enable detailed monitoring for a running instance using `MonitorInstances <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#monitorinstances>`_.
+* Disable monitoring for a running instance using `UnmonitorInstances <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#unmonitorinstances>`_.
+* Start an Alibaba EBS-backed AMI that you've previously stopped, using `StartInstances <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#startinstances>`_.
+* Stop an Alibaba EBS-backed instance using `StopInstances <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#stopinstances>`_.
+* Request a reboot of one or more instances using `RebootInstances <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ec2-2016-11-15.html#rebootinstances>`_.
 
 All the example code for the Alibaba Cloud SDK for PHP is available `here on GitHub <https://github.com/aliyundocs/aliyun-doc-sdk-examples/tree/master/php/example_code>`_.
 

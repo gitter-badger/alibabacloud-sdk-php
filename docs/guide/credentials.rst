@@ -72,7 +72,7 @@ been configured with an IAM role.
 
     To Avoid hitting metadata service every time, an instance of ``AlibabaCloud\CacheInterface``
     can be passed in as the ``'credentials'`` option to a client constructor. This lets SDK
-    use cached instance profile credentials instead. For more information, see ``'credentials'`` `option <http://docs.aliyun.com/aliyun-sdk-php/v3/guide/guide/configuration.html#credentials>`_.
+    use cached instance profile credentials instead. For more information, see ``'credentials'`` `option <http://docs.aliyun.com/alibabacloud-sdk-php/v3/guide/guide/configuration.html#credentials>`_.
 
 For more information, see `IAM Roles for Alibaba EC2 <http://docs.aliyun.com/aliyunEC2/latest/UserGuide/iam-roles-for-Alibaba-ec2.html>`_.
 
@@ -88,7 +88,7 @@ provide credentials to EC2 instances.
 
 Instead of creating and distributing your Alibaba Cloud credentials to the containers or
 using the EC2 instance’s role, you can associate an IAM role with an ECS task definition or
-``RunTask`` `API <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-ecs-2014-11-13.html#runtask>`_ operation.
+``RunTask`` `API <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-ecs-2014-11-13.html#runtask>`_ operation.
 
 .. note::
 
@@ -108,7 +108,7 @@ Using ``AlibabaCloud\Credentials\AssumeRoleCredentialProvider`` to create creden
 you would need to provide ``'client'`` information with a ``StsClient`` object and
 ``'assume_role_params'`` details.
 
-For more information regarding ``'assume_role_params'``, see `AssumeRole <http://docs.aliyun.com/aliyun-sdk-php/v3/api/api-sts-2011-06-15.html#assumerole>`_.
+For more information regarding ``'assume_role_params'``, see `AssumeRole <http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/api-sts-2011-06-15.html#assumerole>`_.
 
 .. code-block:: php
 

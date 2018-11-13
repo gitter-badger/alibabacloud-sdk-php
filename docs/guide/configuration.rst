@@ -6,7 +6,7 @@ This guide describes client constructor options. These options can be provided
 in a client constructor or to the ``AlibabaCloud\Sdk`` class. The array of options
 provided to a specific type of client may vary based on which client you are
 creating. These custom client configuration options are described in the
-`API documentation <http://docs.aliyun.com/aliyun-sdk-php/latest/>`_ of each
+`API documentation <http://docs.aliyun.com/alibabacloud-sdk-php/latest/>`_ of each
 client.
 
 .. contents:: Configuration Options
@@ -904,7 +904,7 @@ service. For example, when using Alibaba S3, you can lock your API version to
     ]);
 
 A list of available API versions can be found on each client's API
-documentation page: http://docs.aliyun.com/aliyun-sdk-php/v3/api/index.html.
+documentation page: http://docs.aliyun.com/alibabacloud-sdk-php/v3/api/index.html.
 If you are unable to load a specific API version, then you may need to update
 your copy of the SDK.
 
