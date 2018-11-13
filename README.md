@@ -108,16 +108,20 @@ use AlibabaCloud\Core\AlibabaCloud;
 AlibabaCloud::accessKeyClient(\getenv('ALICLOUD_ACCESS_KEY_ID'), \getenv('ALICLOUD_SECRET_ACCESS_KEY'))
 			->setRegionId('cn-hangzhou')
 			->asDefaultClient();
+
 ```
 
 ### Make a request to Alibaba Cloud
 
 ```php
 <?php
+use AlibabaCloud\Ecs\Ecs;
+
 try {
 	$response = Ecs::DescribeRegions()->connectTimeout(1)->timeout(0.9)->debug(true)->request();
 	\dump($response->toArray());
 } catch (\Exception $exception) {
 	\dump($exception->getMessage());
 }
+
 ```
