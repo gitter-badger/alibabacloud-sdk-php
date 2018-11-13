@@ -1,4 +1,4 @@
-# Alibaba Cloud SDK for PHP - Version 1
+# Alibaba Cloud SDK for PHP
 
 ## 开发和测试中，请不要安装使用！
 ## Development and testing, Please do not install and use!
@@ -7,29 +7,12 @@
 
 - PHP>=5.6
 
-## Example
-
-	include_once '../aliyun-php-sdk-core/Config.php';
-	use Ecs\Request\V20140526 as Ecs;
-	
-	$profile = Profile::getProfile("cn-hangzhou", "<your accessKey>", "<your accessSecret>");
-	$client = new AlibabaCloud($profile);
-	
-	$request = new Ecs\DescribeRegionsRequest(); 
-	$request->setMethod("GET");
-	$response = $client->getResponse($request);
-	print_r($response);
-
-
-
 ## License
 
-licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
+Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 
-
-
-[![@aliyunforphp on Twitter](http://img.shields.io/badge/twitter-%40aliyunforphp-blue.svg?style=flat)](https://twitter.com/aliyunforphp)
+[![@AlibabaForPHP on Twitter](http://img.shields.io/badge/twitter-%40AlibabaForPHP-blue.svg?style=flat)](https://twitter.com/AlibabaForPHP)
 [![Total Downloads](https://img.shields.io/packagist/dt/alibabacloud/sdk-php.svg?style=flat)](https://packagist.org/packages/alibabacloud/sdk-php)
 [![Build Status](https://img.shields.io/travis/alibabacloud/sdk-php.svg?style=flat)](https://travis-ci.org/alibabacloud/sdk-php)
 [![Apache 2 License](https://img.shields.io/packagist/l/alibabacloud/sdk-php.svg?style=flat)](http://aliyun.com/apache-2-0/)
@@ -145,67 +128,3 @@ try {
     echo "There was an error uploading the file.\n";
 }
 ```
-
-### Related Alibaba Cloud Projects
-
-* [Alibaba Cloud Service Provider for Laravel][mod-laravel]
-* [Alibaba Cloud SDK ZF2 Module][mod-zf2]
-* [Alibaba Cloud Service Provider for Silex][mod-silex]
-* [Alibaba Cloud SDK Bundle for Symfony][mod-symfony]
-* [Alibaba SNS Message Validator for PHP][sns-validator] - SNS validator without requiring SDK
-* [Guzzle Version 6][guzzle-docs] – PHP HTTP client and framework
-* For Version 2 of the SDK:
-  * [User Guide][docs-guide-v2]
-  * [API Docs][docs-api-v2]
-* Other [Alibaba Cloud SDKs & Tools][aliyun-tools] (e.g., js, cli, ruby, python, java, etc.)
-
-[sdk-website]: http://aliyun.com/sdkforphp
-[sdk-forum]: https://forums.aliyun.com/forum.jspa?forumID=80
-[sdk-issues]: https://github.com/alibabacloud/sdk-php/issues
-[sdk-license]: http://aliyun.com/apache2.0/
-[sdk-blog]: https://aliyun.com/blogs/developer/category/php/
-[sdk-twitter]: https://twitter.com/aliyunforphp
-[sdk-sample]: http://aliyun.com/developers/getting-started/php
-
-[install-packagist]: https://packagist.org/packages/alibabacloud/sdk-php
-[latest-release]: https://github.com/alibabacloud/sdk-php/releases
-
-[docs-api]: http://docs.aliyun.com/aliyun-sdk-php/v3/api/index.html
-[docs-guide]: http://docs.aliyun.com/sdk-for-php/v3/developer-guide/welcome.html
-[docs-api-v2]: http://docs.aliyun.com/aliyun-sdk-php/v2/api/index.html
-[docs-guide-v2]: http://docs.aliyun.com/aliyun-sdk-php/v2/guide/index.html
-[docs-contribution]: https://github.com/alibabacloud/sdk-php/blob/master/CONTRIBUTING.md
-[docs-migration]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/getting-started_migration.html
-[docs-signup]: http://aliyun.com/developers/access-keys/
-[docs-requirements]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/getting-started_requirements.html
-[docs-installation]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/getting-started_installation.html
-[docs-quickstart]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/welcome.html#getting-started
-[docs-paginators]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/guide_paginators.html
-[docs-waiters]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/guide_waiters.html
-[docs-results]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/getting-started_basic-usage.html#result-objects
-[docs-exceptions]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/getting-started_basic-usage.html#handling-errors
-[docs-wire-logging]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/faq.html#how-can-i-see-what-data-is-sent-over-the-wire
-[docs-ddbsh]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/service_dynamodb-session-handler.html
-[docs-services]: https://aliyun.com/products/
-[docs-rande]: http://docs.aliyun.com/general/latest/gr/rande.html
-[docs-streamwrapper]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/s3-stream-wrapper.html
-[docs-s3-transfer]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/s3-transfer.html
-[docs-s3-multipart]: https://docs.aliyun.com/sdk-for-php/v3/developer-guide/s3-multipart-upload.html
-
-[aliyun]: http://aliyun.com
-[aliyun-iam-credentials]: http://docs.aliyun.com/aliyunEC2/latest/UserGuide/UsingIAM.html#UsingIAMrolesWithAlibabaEC2Instances
-[aliyun-tools]: http://aliyun.com/tools
-[guzzle-docs]: http://guzzlephp.org
-[composer]: http://getcomposer.org
-[packagist]: http://packagist.org
-[psr-7]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-7-http-message.md
-[psr-4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
-[psr-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
-[psr-2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
-
-[mod-laravel]: https://github.com/alibabacloud/sdk-php-laravel
-[mod-zf2]: https://github.com/alibabacloud/sdk-php-zf2
-[mod-silex]: https://github.com/alibabacloud/sdk-php-silex
-[mod-symfony]: https://github.com/alibabacloud/sdk-php-symfony
-[sns-validator]: https://github.com/aliyun/aliyun-php-sns-message-validator
-
