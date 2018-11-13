@@ -5,11 +5,7 @@
 
 ## Requirements
 
-- PHP 5.3+
-
-## Build
-
-- to run unit tests, you will have to configure aliyun-sdk.properties files in your user directory, and make sure your project has corresponding service enabled, eg. openmr.
+- PHP>=5.6
 
 ## Example
 
