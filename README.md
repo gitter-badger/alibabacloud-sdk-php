@@ -17,7 +17,7 @@ Licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-
 [![Build Status](https://img.shields.io/travis/alibabacloud/sdk-php.svg?style=flat)](https://travis-ci.org/alibabacloud/sdk-php)
 [![Apache 2 License](https://img.shields.io/packagist/l/alibabacloud/sdk-php.svg?style=flat)](http://aliyun.com/apache-2-0/)
 [![Gitter](https://badges.gitter.im/alibabacloud/sdk-php.svg)](https://gitter.im/alibabacloud/sdk-php?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![codecov](https://codecov.io/gh/alibabacloud/sdk-php/branch/master/graph/badge.svg)](https://codecov.io/gh/alibabacloud/sdk-php)
+[![codecov](https://codecov.io/gh/alibabacloud/sdk-php/branch/master/graph/badge.svg)](https://codecov.io/gh/alibabacloud/sdk-php) [![Join the chat at https://gitter.im/alibabacloud-sdk-php/Lobby](https://badges.gitter.im/alibabacloud-sdk-php/Lobby.svg)](https://gitter.im/alibabacloud-sdk-php/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 The **Alibaba Cloud SDK for PHP** makes it easy for developers to access [Alibaba Cloud] in their PHP code. You can get started in minutes by [installing the SDK through Composer][docs-installation]
 or by downloading a single zip or phar file from our [latest release][latest-release].
