@@ -7,7 +7,6 @@ use AlibabaCloud\Core\Exception\ClientException;
 use AlibabaCloud\Ecs\Ecs;
 use AlibabaCloud\Oss\Oss;
 use AlibabaCloud\Sms\Sms;
-use Symfony\Component\Dotenv\Dotenv;
 
 require_once './vendor/autoload.php';
 
@@ -50,10 +49,10 @@ AlibabaCloud::ramRoleArnClient(\getenv('ALICLOUD_ACCESS_KEY_ID'),
 // Ecs 产品 DescribeRegions 的动作，用叫puling的客户端获取
 
 try {
-	$response2 = Ecs::DescribeRegions()->connectTimeout(1)->timeout(0.9)->debug(true)->request();
-	\dd($response2->toArray());
+	$response = Ecs::DescribeRegions()->connectTimeout(1)->timeout(0.9)->debug(true)->request();
+	\dump($response->toArray());
 } catch (\Exception $exception) {
-	\dd($exception->getMessage());
+	\dump($exception->getMessage());
 }
 exit;
 // Oss 使用默认客户端获取buckets列表

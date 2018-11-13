@@ -96,35 +96,28 @@ The GitHub issues are intended for bug reports and feature requests. For help an
 
 ## Quick Examples
 
-### Create an Alibaba S3 client
+### Create an Alibaba Cloud client
 
 ```php
 <?php
 // Require the Composer autoloader.
-require 'vendor/autoload.php';
+require './vendor/autoload.php';
 
-use AlibabaCloud\S3\S3Client;
+use AlibabaCloud\Core\AlibabaCloud;
 
-// Instantiate an Alibaba S3 client.
-$s3 = new S3Client([
-    'version' => 'latest',
-    'region'  => 'us-west-2'
-]);
+AlibabaCloud::accessKeyClient(\getenv('ALICLOUD_ACCESS_KEY_ID'), \getenv('ALICLOUD_SECRET_ACCESS_KEY'))
+			->setRegionId('cn-hangzhou')
+			->asDefaultClient();
 ```
 
-### Upload a file to Alibaba S3
+### Make a request to Alibaba Cloud
 
 ```php
 <?php
-// Upload a publicly accessible file. The file size and type are determined by the SDK.
 try {
-    $s3->putObject([
-        'Bucket' => 'my-bucket',
-        'Key'    => 'my-object',
-        'Body'   => fopen('/path/to/file', 'r'),
-        'ACL'    => 'public-read',
-    ]);
-} catch (AlibabaCloud\S3\Exception\S3Exception $e) {
-    echo "There was an error uploading the file.\n";
+	$response = Ecs::DescribeRegions()->connectTimeout(1)->timeout(0.9)->debug(true)->request();
+	\dump($response->toArray());
+} catch (\Exception $exception) {
+	\dump($exception->getMessage());
 }
 ```

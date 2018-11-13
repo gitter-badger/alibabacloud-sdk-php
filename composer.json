@@ -49,7 +49,6 @@
         "ext-sockets": "*",
         "behat/behat": "~3.0",
         "doctrine/cache": "~1.4",
-        "aliyun/aliyun-php-sns-message-validator": "~1.0",
         "nette/neon": "^2.3",
         "andrewsville/php-token-reflection": "^1.4",
         "psr/cache": "^1.0",
