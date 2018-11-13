@@ -1,0 +1,32 @@
+default:
+    suites:
+        smoke:
+            paths: [ %paths.base%/features/smoke ]
+            contexts: [ AlibabaCloud\Test\Integ\SmokeContext ]
+        performance:
+            paths: [ %paths.base%/features/performance ]
+            contexts: [ AlibabaCloud\Test\PerformanceContext ]
+        multipart:
+            paths: [ %paths.base%/features/multipart ]
+            contexts: [ AlibabaCloud\Test\Integ\MultipartContext ]
+        batching:
+            paths: [ %paths.base%/features/batching ]
+            contexts: [ AlibabaCloud\Test\Integ\BatchingContext ]
+        blocking:
+            paths: [ %paths.base%/features/blocking ]
+            contexts: [ AlibabaCloud\Test\Integ\BlockingContext ]
+        clientSideMonitoring:
+            paths: [ %paths.base%/features/clientSideMonitoring ]
+            contexts: [ AlibabaCloud\Test\Integ\ClientSideMonitoringContext ]
+        concurrency:
+            paths: [ %paths.base%/features/concurrency ]
+            contexts: [ AlibabaCloud\Test\Integ\ConcurrencyContext ]
+        streams:
+            paths: [ %paths.base%/features/streams ]
+            contexts: [ AlibabaCloud\Test\Integ\NativeStreamContext ]
+        s3:
+            paths: [ %paths.base%/features/s3 ]
+            contexts: [ AlibabaCloud\Test\Integ\S3Context ]
+        s3Encryption:
+            paths: [ %paths.base%/features/s3Encryption ]
+            contexts: [ AlibabaCloud\Test\Integ\S3EncryptionContext ]

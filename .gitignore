@@ -1,0 +1,8 @@
+.DS_Store
+/.idea
+/composer.lock
+/vendor/
+/.php_cs.cache
+/build
+/.alibabacloud/
+/.env
