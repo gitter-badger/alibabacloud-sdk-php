@@ -1,7 +1,7 @@
 # Alibaba Cloud SDK for PHP
 
-## 开发和测试中，请不要安装使用！
-## Development and testing, Please do not install and use!
+# 开发和测试中，请不要安装使用！
+# Development and testing, Please do not install and use!
 
 ## Requirements
 
