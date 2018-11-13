@@ -34,7 +34,7 @@ or by downloading a single zip or phar file from our [latest release][latest-rel
 * [Forum][sdk-forum] – Ask questions, get help, and give feedback
 * [Issues][sdk-issues] – Report issues, submit pull requests, and get involved
   (see [Apache 2.0 License][sdk-license])
-* [@aliyunforphp][sdk-twitter] – Follow us on Twitter
+* [@alibabaforphp][sdk-twitter] – Follow us on Twitter
 
 ## Getting Help
 

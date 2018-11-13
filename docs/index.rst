@@ -22,7 +22,7 @@ or `aliyun.phar <http://docs.aliyun.com/aliyun-sdk-php/v3/download/aliyun.phar>`
 
 External links: `API Docs <http://docs.aliyun.com/aliyun-sdk-php/v3/api/>`_
 | `GitHub <https://github.com/alibabacloud/sdk-php>`_
-| `Twitter <https://twitter.com/aliyunforphp>`_
+| `Twitter <https://twitter.com/alibabaforphp>`_
 | `Gitter <https://gitter.im/alibabacloud/sdk-php>`_
 | `Blog <https://aliyun.com/blogs/developer/category/php/>`_
 | `Forum <https://forums.aliyun.com/forum.jspa?forumID=80>`_
